@@ -234,7 +234,7 @@ F2 버튼을 눌러줍니다.
 
 ![image.png](readme_images/8ef95373-c036-439b-bda5-c047a297d50a.png)
 
-**2. 아래 링크를 통해 yolov5n.pt 파일을 다운받습니다.**
+**2. yolov5n.pt파일이 없다면, 만약 아래 링크를 통해 yolov5n.pt 파일을 다운받습니다.**
 
 [https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5n.pt](https://github.com/ultralytics/yolov5/releases/download/v7.0/yolov5n.pt)
 
