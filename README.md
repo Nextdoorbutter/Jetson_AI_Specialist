@@ -21,11 +21,11 @@
 </aside>
 <br>
 <br>
-<H1>Title</H1>
-<H1>Plastic recycling code recognition for camera-enabled recycling bins</H1>
+<h3>Title</h3>
+[주제]
 ---
-<H2>[주제]</H2>
-<H2>카메라 인식 재활용 쓰레기통을 위한 플라스틱 재활용 코드 인식</H2>
+카메라 인식 재활용 쓰레기통을 위한 플라스틱 재활용 코드 인식
+Plastic recycling code recognition for camera-enabled recycling bins
 <br>
 <br>
 
