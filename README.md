@@ -361,7 +361,7 @@ testVideo(1)은 캔을 제외한 데이터셋을 학습시켜 플라스틱만 �
 
 ![testVideo2](https://github.com/user-attachments/assets/318d7bb8-fdc1-406b-a518-22422e4006d1)
 
-testVideo(2)는 캔을 포함한 데이터셋을 학습시켜 플라스틱만 인식시킨 테스트 영상입니다. 추후, 따로 캔에 대한 데이터셋을 학습시켜 최신화 시켰습니다.
+추후, 따로 캔에 대한 데이터셋을 학습시켜 최신화 시켰습니다. 그래서 testVideo(2)는 캔을 포함한 데이터셋을 학습시켜 플라스틱만 인식시킨 테스트 영상입니다.
 
 ![testVideo3_480](https://github.com/user-attachments/assets/a6282177-c2de-44c5-9d35-8b082a078923)
 
