@@ -22,10 +22,10 @@
 <br>
 <br>
 <h3>Title</h3>
-[주제]
----
-카메라 인식 재활용 쓰레기통을 위한 플라스틱 재활용 코드 인식
-Plastic recycling code recognition for camera-enabled recycling bins
+# [주제]
+# ---
+# 카메라 인식 재활용 쓰레기통을 위한 플라스틱 재활용 코드 인식
+# Plastic recycling code recognition for camera-enabled recycling bins
 <br>
 <br>
 
