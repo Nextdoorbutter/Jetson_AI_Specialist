@@ -217,6 +217,8 @@ F2 버튼을 눌러줍니다.
 
 **※ 각각의 이미지에 해당하는 image 파일과 label 파일의 파일명이 동일해야 합니다.**
 
+<br>
+
 ## Data.yaml 파일 수정 및 데이터 모델 다운
 
 **1. yolov5-master 폴더에 Darklabels를 다운받을 때 얻은 data.yml파일을 수정해줍니다.**
@@ -269,6 +271,8 @@ yolov5n.pt 모델 위치
 
 python [train.py](http://train.py/) --img 640 --batch 16 --epochs 300 --data .\data\data.yaml --weights [yolov5s.pt](http://yolov5s.pt/)
 
+<br>
+
 ## 학습 시작
 
 **1.  학습을 시작하기 전 사전 준비를 합니다.**
@@ -278,6 +282,8 @@ python [train.py](http://train.py/) --img 640 --batch 16 --epochs 300 --data .\d
 **2. 아래 명령어 실행 시 학습을 시작합니다.**
 
 ![image.png](readme_images/image%2016.png)
+
+<br>
 
 ## 학습 결과물 확인
 
@@ -302,6 +308,8 @@ python [train.py](http://train.py/) --img 640 --batch 16 --epochs 300 --data .\d
 ![labels.jpg](readme_images/labels.jpg)
 
 ![P_curve.png](readme_images/P_curve.png)
+
+<br>
 
 ## 학습 결과물 검증
 
