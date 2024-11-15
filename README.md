@@ -135,13 +135,19 @@ Plastic recycling code recognition for camera-enabled recycling bins
 - 1. 플라스틱 재활용 코드가 있는 플라스틱 물건들을 직접 카메라로 촬영하여 영상 및 이미지를 취득합니다.
 - 2. 더욱 다양한 플라스틱 재활용 코드에 대한 이미지를 획득하고 싶으면 서칭을 통해 획득합니다.
 
+<br>
+
 [구글 드라이브 - 학습용 영상 / Plastic, Can-RecycleCode DataSet](https://drive.google.com/drive/folders/1U06urchYQgUS13HIrnAcXyG1Lu9j78hj?usp=sharing)
 
 Google Drive - Train Video / Plastic, Can-RecycleCode DataSet
 
+<br>
+
 [구글 드라이브 - 데이터셋 모음과 결과물 / All-RecycleCode DataSet](https://drive.google.com/drive/folders/1BnvuJfLOWVoczlMWEHVnba1yDsy5Am5r?usp=sharing)
 
 Google Drive - DataSet and Result / All-RecycleCode DataSet
+
+<br>
 
 우선, 해당 구글 드라이브에 서칭을 통한 데이터셋이 있으나 직접 촬영 및 영상을 찍어서 구한 데이터셋으로 학습 시킨 후 진행하였습니다.
 그리고 학습시킨 후 학습에 대한 데이터가 부족하다고 생각되는 부분에 대해서는 서칭을 통해 얻은 몇몇의 이미지를 추가해서 다시 학습 시킨 후 진행하는 방식을 채택하였습니다.
@@ -330,9 +336,13 @@ python [detect.py](http://detect.py/) --weight runs/train/exp/weights/best.pt --
 
 python [detect.py](http://detect.py/) --weight runs/train/exp/weights/best.pt --source [테스트할 영상의 경로] --img 640 --conf 0.8
 
+<br>
+
 [구글 드라이브 - test영상으로 나온 detect영상](https://drive.google.com/drive/folders/10aHjcGPqCY0Am8rhcIJPTdkirmEg8USJ?usp=sharing)
 
 Google Drive - detect-video from test-video
+
+<br>
 
 ![testVideo1](https://github.com/user-attachments/assets/49f620f7-b6c6-4d4b-8810-a4c468a459f2)
 
