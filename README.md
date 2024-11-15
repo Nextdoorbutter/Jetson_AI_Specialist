@@ -330,9 +330,9 @@ python [detect.py](http://detect.py/) --weight runs/train/exp/weights/best.pt --
 
 python [detect.py](http://detect.py/) --weight runs/train/exp/weights/best.pt --source [테스트할 영상의 경로] --img 640 --conf 0.8
 
-[test영상으로 나온 detect영상](https://drive.google.com/drive/folders/10aHjcGPqCY0Am8rhcIJPTdkirmEg8USJ?usp=sharing)
+[구글 드라이브 - test영상으로 나온 detect영상](https://drive.google.com/drive/folders/10aHjcGPqCY0Am8rhcIJPTdkirmEg8USJ?usp=sharing)
 
-test영상으로 나온 detect영상
+Google Drive - detect-video from test-video
 
 ![testVideo1](https://github.com/user-attachments/assets/49f620f7-b6c6-4d4b-8810-a4c468a459f2)
 
