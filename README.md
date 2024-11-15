@@ -19,6 +19,7 @@
 - Literature review (전반적인 프로젝트의 배경지식 공유를 위해서!)
 
 </aside>
+
 <br>
 <br>
 
@@ -31,6 +32,9 @@
 ---
 
 Plastic recycling code recognition for camera-enabled recycling bins
+
+<br>
+<br>
 
 # Opening background information
 
