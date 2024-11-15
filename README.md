@@ -127,6 +127,9 @@ Plastic recycling code recognition for camera-enabled recycling bins
 
 - A variety of learning data, image recognition, and object detection for recycled plastics are needed.
 
+<br>
+<br>
+
 ## 영상 취득 방법
 
 - 1. 플라스틱 재활용 코드가 있는 플라스틱 물건들을 직접 카메라로 촬영하여 영상 및 이미지를 취득합니다.
