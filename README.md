@@ -333,6 +333,14 @@ python [detect.py](http://detect.py/) --weight runs/train/exp/weights/best.pt --
 
 test영상으로 나온 detect영상
 
+![testVideo1](https://github.com/user-attachments/assets/49f620f7-b6c6-4d4b-8810-a4c468a459f2)
+
 testVideo(1)은 캔을 제외한 데이터셋을 학습시켜 플라스틱만 인식시킨 테스트 영상입니다.
 
+![testVideo2](https://github.com/user-attachments/assets/318d7bb8-fdc1-406b-a518-22422e4006d1)
+
 testVideo(2)는 캔을 포함한 데이터셋을 학습시켜 플라스틱만 인식시킨 테스트 영상입니다. 추후, 따로 캔에 대한 데이터셋을 학습시켜 최신화 시켰습니다.
+
+![testVideo3_480](https://github.com/user-attachments/assets/a6282177-c2de-44c5-9d35-8b082a078923)
+
+testVideo(2)은 더 많은 오브젝트들에서 테스트를 진행했습니다.
