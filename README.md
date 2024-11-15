@@ -139,7 +139,7 @@ Plastic recycling code recognition for camera-enabled recycling bins
 
 [https://online-video-cutter.com/ko/resize-video](https://online-video-cutter.com/ko/resize-video) 해당 사이트를 통해 쉽게 자를 수 있습니다.
 
-![image.png](image.png)
+![image.png](readme_images/image.png)
 
 **2. DarkLabel**
 
@@ -149,27 +149,27 @@ Plastic recycling code recognition for camera-enabled recycling bins
 
 **3. 우선 darklabel.yml 파일을 메모장으로 열어줍니다.**
 
-![image.png](image%201.png)
+![image.png](readme_images/image%201.png)
 
 **4. 클래스 plastic_classes를 추가해줍니다.**
 
-![image.png](image%202.png)
+![image.png](readme_images/image%202.png)
 
 **5. 제일 하단에 format9를 추가해줍니다.**
 
-![image.png](image%203.png)
+![image.png](readme_images/image%203.png)
 
 **6. DarkLabel.exe 실행시키면 9. plastic이 생성됩니다.**
 
-![image.png](image%204.png)
+![image.png](readme_images/image%204.png)
 
 **7. 우선, Open Video 버튼을 눌러서 영상을 열고 프레임 별로 이미지 저장을 위해 하단의 체크를 풀고 as Images 버튼을 통해 저장해줍니다.**
 
-![image.png](image%205.png)
+![image.png](readme_images/image%205.png)
 
 **8. 그리고 수집한 영상 및 이미지를 DarkLabel 에서 image와 label로 추출합니다.**
 
-![image.png](image%206.png)
+![image.png](readme_images/image%206.png)
 
 **9. 위와 같이 해서 얻은 라벨과 이미지의 이름을 변경해줍니다.**
 
@@ -179,11 +179,11 @@ Plastic recycling code recognition for camera-enabled recycling bins
 
 F2 버튼을 눌러줍니다.
 
-![image.png](image%207.png)
+![image.png](readme_images/image%207.png)
 
 파일명을 train1_(1) 로 변경해주시면 다른 파일도 순서에 맞춰서 전부 변경됩니다.
 
-![image.png](image%208.png)
+![image.png](readme_images/image%208.png)
 
 이와 같은 작업을 다른 train 영상들로부터 얻은 모든 image와 label에 적용합니다.
 
@@ -193,9 +193,9 @@ F2 버튼을 눌러줍니다.
 
 **1. yolov5-master 폴더에 Darklabels를 다운받을 때 얻은 data.yml파일을 수정해줍니다.**
 
-![image.png](image%209.png)
+![image.png](readme_images/image%209.png)
 
-![image.png](8ef95373-c036-439b-bda5-c047a297d50a.png)
+![image.png](readme_images/8ef95373-c036-439b-bda5-c047a297d50a.png)
 
 **2. 아래 링크를 통해 yolov5n.pt 파일을 다운받습니다.**
 
@@ -203,7 +203,7 @@ F2 버튼을 눌러줍니다.
 
 **3. 위의 과정들을 통해 얻은 결과물**
 
-![image.png](image%2010.png)
+![image.png](readme_images/image%2010.png)
 
 해당 결과물은 아래에서 따로 경로를 옮겨줄 예정입니다.
 
@@ -211,33 +211,33 @@ F2 버튼을 눌러줍니다.
 
 **1. 구글 드라이브와 연동합니다.**
 
-![image.png](image%2011.png)
+![image.png](readme_images/image%2011.png)
 
 **2. yolov5를 설치합니다.**
 
-![image.png](image%2012.png)
+![image.png](readme_images/image%2012.png)
 
 **3. train 폴더와 valid 폴더를 생성합니다.**
 
-![image.png](image%2013.png)
+![image.png](readme_images/image%2013.png)
 
 **4. 위에서 얻었던 결과물을 경로에 맞게 파일을 옮겨줍니다.**
 
 images 폴더와 labels 폴더 위치
 
-![image.png](b8bf697d-cce6-4a37-ade0-649efca66643.png)
+![image.png](readme_images/b8bf697d-cce6-4a37-ade0-649efca66643.png)
 
 data.yaml 파일 위치
 
-![image.png](8edfb8e6-10fe-45d6-9c18-c3bf6d2903d4.png)
+![image.png](readme_images/8edfb8e6-10fe-45d6-9c18-c3bf6d2903d4.png)
 
 yolov5n.pt 모델 위치
 
-![image.png](18954f2b-2298-4d65-ae93-de870e2b6560.png)
+![image.png](readme_images/18954f2b-2298-4d65-ae93-de870e2b6560.png)
 
 **5. 검증 데이터를 생성합니다.**
 
-![image.png](image%2014.png)
+![image.png](readme_images/image%2014.png)
 
 python [train.py](http://train.py/) --img 640 --batch 16 --epochs 300 --data .\data\data.yaml --weights [yolov5s.pt](http://yolov5s.pt/)
 
@@ -245,35 +245,35 @@ python [train.py](http://train.py/) --img 640 --batch 16 --epochs 300 --data .\d
 
 **1.  학습을 시작하기 전 사전 준비를 합니다.**
 
-![image.png](image%2015.png)
+![image.png](readme_images/image%2015.png)
 
 **2. 아래 명령어 실행 시 학습을 시작합니다.**
 
-![image.png](image%2016.png)
+![image.png](readme_images/image%2016.png)
 
 ## 학습 결과물 확인
 
 **1. best.pt모델이 생긴 것을 확인 가능합니다.**
 
-![image.png](11f9d9ce-0c20-4673-945c-d40e4b29bd17.png)
+![image.png](readme_images/11f9d9ce-0c20-4673-945c-d40e4b29bd17.png)
 
 **2. 학습 돌린 결과물 train_batch 확인**
 
-![train_batch0.jpg](train_batch0.jpg)
+![train_batch0.jpg](readme_images/train_batch0.jpg)
 
-![train_batch2.jpg](train_batch2.jpg)
+![train_batch2.jpg](readme_images/train_batch2.jpg)
 
-![train_batch0.jpg](train_batch0%201.jpg)
+![train_batch0.jpg](readme_images/train_batch0%201.jpg)
 
-![train_batch1.jpg](train_batch1.jpg)
+![train_batch1.jpg](readme_images/train_batch1.jpg)
 
-![results.png](results.png)
+![results.png](readme_images/results.png)
 
-![labels_correlogram.jpg](labels_correlogram.jpg)
+![labels_correlogram.jpg](readme_images/labels_correlogram.jpg)
 
-![labels.jpg](labels.jpg)
+![labels.jpg](readme_images/labels.jpg)
 
-![P_curve.png](P_curve.png)
+![P_curve.png](readme_images/P_curve.png)
 
 ## 학습 결과물 검증
 
@@ -281,13 +281,13 @@ python [train.py](http://train.py/) --img 640 --batch 16 --epochs 300 --data .\d
 
 python [detect.py](http://detect.py/) --weight runs/train/exp/weights/best.pt --source [테스트할 이미지의 경로] --img 640 --conf 0.8
 
-![image.png](image%2017.png)
+![image.png](readme_images/image%2017.png)
 
-![image.png](image%2018.png)
+![image.png](readme_images/image%2018.png)
 
 **2. 검증 결과**
 
-![image.png](image%2019.png)
+![image.png](readme_images/image%2019.png)
 
 **3. 또는 아래 명령어로 이미지 대신 영상으로 테스트할 수 있습니다.**
 
