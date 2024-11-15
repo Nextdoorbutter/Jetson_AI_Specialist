@@ -135,13 +135,13 @@ Plastic recycling code recognition for camera-enabled recycling bins
 - 1. 플라스틱 재활용 코드가 있는 플라스틱 물건들을 직접 카메라로 촬영하여 영상 및 이미지를 취득합니다.
 - 2. 더욱 다양한 플라스틱 재활용 코드에 대한 이미지를 획득하고 싶으면 서칭을 통해 획득합니다.
 
-[학습용 영상 / Plastic, Can-RecycleCode DataSet](https://drive.google.com/drive/folders/1U06urchYQgUS13HIrnAcXyG1Lu9j78hj?usp=sharing)
+[구글 드라이브 - 학습용 영상 / Plastic, Can-RecycleCode DataSet](https://drive.google.com/drive/folders/1U06urchYQgUS13HIrnAcXyG1Lu9j78hj?usp=sharing)
 
-학습용 영상 / Plastic, Can-RecycleCode DataSet
+Google Drive - Train Video / Plastic, Can-RecycleCode DataSet
 
-[데이터셋 / All-RecycleCode DataSet](https://drive.google.com/drive/folders/1BnvuJfLOWVoczlMWEHVnba1yDsy5Am5r?usp=sharing)
+[구글 드라이브 - 데이터셋 과 결과물 / All-RecycleCode DataSet](https://drive.google.com/drive/folders/1BnvuJfLOWVoczlMWEHVnba1yDsy5Am5r?usp=sharing)
 
-데이터셋 / All-RecycleCode DataSet
+Google Drive - DataSet and Result / All-RecycleCode DataSet
 
 해당 구글 드라이브에 서칭을 통한 데이터셋이 있으나 직접 촬영 및 영상을 찍어서 구한 데이터셋으로 학습 시킨 후 진행하였습니다.
 
