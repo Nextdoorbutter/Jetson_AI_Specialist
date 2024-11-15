@@ -49,6 +49,8 @@ Plastic recycling code recognition for camera-enabled recycling bins
 
 - This project provides an important technical foundation for environmental protection, resource conservation, and sustainable development. A recycling mark recognition system using AI will enable automated recycling classification, which will be of great help in increasing recycling rates and solving the problem of plastic pollution. Also, this is a personal story, but when I was serving in the military, we mobilized troops to separate garbage dumps, but the recycling rate at that time was so low that I started thinking about creating recycling awareness trash cans.
 
+<br>
+
 # General description of the current project
 
 [프로젝트 전반적인 설명]
@@ -61,6 +63,8 @@ Plastic recycling code recognition for camera-enabled recycling bins
 ---
 
 - The goal is to develop an artificial intelligence (AI) system that can automatically recognize and classify recyclable plastic marks. The artificial intelligence (AI) system will proceed with the project with plans to apply it to trash cans. Installing recycling code recognition trash cans in places with low recycling rates, such as military or public trash cans, can save human resources in the future. The key is to streamline the recycling process, increase the plastic recycling rate, and build technology that can contribute to environmental protection.
+
+<br>
 
 # **Proposed idea for enhancements to the project**
 
@@ -86,7 +90,8 @@ Plastic recycling code recognition for camera-enabled recycling bins
 - **+ Scalable system**
     
     This project provides a scalable system that can learn not only specific recycling marks, but also various types of recycling marks and plastic types in the future. This has the potential to develop into a technology that can be applied in specific regions in the short term and in the global market in the long term.
-    
+
+<br>
 
 # Value and signifiance of the project
 
@@ -101,6 +106,8 @@ Plastic recycling code recognition for camera-enabled recycling bins
 
 - Currently, plastic pollution is emerging as a serious environmental problem worldwide. In particular, since plastic does not decompose in nature, it has a significant impact on the natural environment, including soil, sea, and air. However, plastic is a recyclable resource. Therefore, there is an urgent need for a system to accurately separate and efficiently recycle plastic. This project can play an important role in automating the recycling process by accurately recognizing plastic recycling marks and reducing environmental pollution by increasing recycling rates.
 
+<br>
+
 # **Current limitations**
 
 [직면하고 있는 한계]
@@ -113,6 +120,8 @@ Plastic recycling code recognition for camera-enabled recycling bins
 ---
 
 - There are several key limitations in current plastic recycling technologies. First, the variety and complexity of plastic types make efficient sorting difficult. Second, the quality of recycled plastic often falls short compared to virgin plastic, limiting its reuse in new products. Third, recycling infrastructure and systems are unevenly distributed, making it challenging to establish an efficient global recycling framework. Lastly, a lack of public awareness about plastic recycling and economic barriers also pose significant constraints.
+
+<br>
 
 # **Literature review**
 
