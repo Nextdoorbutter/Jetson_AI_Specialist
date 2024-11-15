@@ -139,11 +139,12 @@ Plastic recycling code recognition for camera-enabled recycling bins
 
 Google Drive - Train Video / Plastic, Can-RecycleCode DataSet
 
-[구글 드라이브 - 데이터셋 과 결과물 / All-RecycleCode DataSet](https://drive.google.com/drive/folders/1BnvuJfLOWVoczlMWEHVnba1yDsy5Am5r?usp=sharing)
+[구글 드라이브 - 데이터셋 모음과 결과물 / All-RecycleCode DataSet](https://drive.google.com/drive/folders/1BnvuJfLOWVoczlMWEHVnba1yDsy5Am5r?usp=sharing)
 
 Google Drive - DataSet and Result / All-RecycleCode DataSet
 
-해당 구글 드라이브에 서칭을 통한 데이터셋이 있으나 직접 촬영 및 영상을 찍어서 구한 데이터셋으로 학습 시킨 후 진행하였습니다.
+우선, 해당 구글 드라이브에 서칭을 통한 데이터셋이 있으나 직접 촬영 및 영상을 찍어서 구한 데이터셋으로 학습 시킨 후 진행하였습니다.
+그리고 학습시킨 후 학습에 대한 데이터가 부족하다고 생각되는 부분에 대해서는 서칭을 통해 얻은 몇몇의 이미지를 추가해서 다시 학습 시킨 후 진행하는 방식을 채택하였습니다.
 
 <br>
 
