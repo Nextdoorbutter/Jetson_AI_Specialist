@@ -145,11 +145,15 @@ Plastic recycling code recognition for camera-enabled recycling bins
 
 해당 구글 드라이브에 서칭을 통한 데이터셋이 있으나 직접 촬영 및 영상을 찍어서 구한 데이터셋으로 학습 시킨 후 진행하였습니다.
 
+<br>
+
 **1. 해상도를 640 x 640으로 학습하기 위하여 영상 및 이미지를 640 x 640에 맞게 잘라줍니다.**
 
 [https://online-video-cutter.com/ko/resize-video](https://online-video-cutter.com/ko/resize-video) 해당 사이트를 통해 쉽게 자를 수 있습니다.
 
 ![image.png](readme_images/image.png)
+
+<br>
 
 **2. DarkLabel**
 
@@ -157,29 +161,43 @@ Plastic recycling code recognition for camera-enabled recycling bins
 
 해당 사이트를 통하여 DarkLabel 프로그램과 data.yaml 파일을 다운 받은 후에 사용하여 수집한 영상 및 이미지에 대해 라벨이 달린 이미지로 변환이 가능합니다.
 
+<br>
+
 **3. 우선 darklabel.yml 파일을 메모장으로 열어줍니다.**
 
 ![image.png](readme_images/image%201.png)
+
+<br>
 
 **4. 클래스 plastic_classes를 추가해줍니다.**
 
 ![image.png](readme_images/image%202.png)
 
+<br>
+
 **5. 제일 하단에 format9를 추가해줍니다.**
 
 ![image.png](readme_images/image%203.png)
+
+<br>
 
 **6. DarkLabel.exe 실행시키면 9. plastic이 생성됩니다.**
 
 ![image.png](readme_images/image%204.png)
 
+<br>
+
 **7. 우선, Open Video 버튼을 눌러서 영상을 열고 프레임 별로 이미지 저장을 위해 하단의 체크를 풀고 as Images 버튼을 통해 저장해줍니다.**
 
 ![image.png](readme_images/image%205.png)
 
+<br>
+
 **8. 그리고 수집한 영상 및 이미지를 DarkLabel 에서 image와 label로 추출합니다.**
 
 ![image.png](readme_images/image%206.png)
+
+<br>
 
 **9. 위와 같이 해서 얻은 라벨과 이미지의 이름을 변경해줍니다.**
 
