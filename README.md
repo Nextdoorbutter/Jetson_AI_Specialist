@@ -56,6 +56,7 @@ Plastic recycling code recognition for camera-enabled recycling bins
 ✅ + AI-based automated recycling classification system
     
 In the current plastic recycling process, the process of distinguishing and sorting marks by human eyes is time-consuming and can lead to mistakes. Using an AI model, you can quickly and accurately analyze images and automatically recognize various types of plastic marks, enabling efficient separate discharge.
+
 <br>
     + Scalable system
     
