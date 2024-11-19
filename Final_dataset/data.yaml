@@ -1,0 +1,8 @@
+train: ./train/images  # train images 경로
+val: ./valid/images # val images 경로
+
+names:  # Classes name
+- Plastic
+- ColorlessPet
+- Can
+- PET
